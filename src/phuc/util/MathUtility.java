@@ -18,7 +18,7 @@ public class MathUtility {
     //quy ước 0! = 1! = 1
     //Nếu đưa vào n âm, hoặc n>20, ta khong thèm tính
     public static  long getFactorial(int n){
-        if(n<0 || n>30)
+        if(n<0 || n>20)
             throw new IllegalArgumentException("n must be between 0..20");
         
         if(n==0 || n==1)
@@ -79,5 +79,9 @@ public class MathUtility {
         //nếu t gọi -5!
         MathUtility.getFactorial(-5);
         //nhớ link kho 
+        //cần file đặc biệt để nói với git tool rằng ai lên sever ai ở lại local file này được gọi là .gitignore.txt thuần text khác nhau content tùy vào IDE mình xài và 
+        //ngôn ngữ lập trình mình xài 
+        //Có một gã dev cực kì dễ thương đã làm snawx nhugnwx file này ròi ứng với các IDE và các ngôn ngữ lapapj trình mình chỉ xin anh ấy đem về xài 
+        //https://gitignore.io
     }
 }
