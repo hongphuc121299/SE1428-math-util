@@ -1,0 +1,11 @@
+getFactorial đưa vào và return AV, RV nếu khớp thì ok nếu không thì toang 
+getFactorial != actual so sánh với expected khác 
+== xanh khoogn bằng đỏ 
+Nếu thủ công phải so sánh bằng mắt từng trường hợp rồi mới kết luận được hàm đúng hay sai 
+Bản chất đều là hai con số máy tính so được 
+
+Máy so sánh giùm luôn EV vs AV  so hết các cặp 
+Nếu tất cả đúng thì đúng 
+Nếu chỉ một thằng sai thì hàm sai 
+UnitTest Framework bộ thư viện .jar hoặc .dll được thêm vào tùy ngôn ngữ lập trình thì xài ngôn ngữ tương ứng và đối với C# thì ta xài nUnit MSTest
+Đối với java JUnit xuất hiện lq đến thuật ngữ TDD CI - CT - CD - DevOps 
