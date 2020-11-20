@@ -39,8 +39,11 @@ public class MathUltilityTest {
     //ngoại lệ không phải là một value để mà so sánh do đó dùng hàm assertEquals là không được 
     //ta áp dụng kỹ thuật khác
     
-    @Test(expected = SQLException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void getFactorial_ThrowsException_IfInvalidArgument() {
+       
         MathUtility.getFactorial(-5);
     }
+    //Tui muốn thấy màu xanh trên sever và thấy tick xanh luôn 
+    
 }
